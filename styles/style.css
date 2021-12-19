@@ -1,0 +1,39 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+html{
+    font-size: 62.5%;
+}
+
+body{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+header{
+    width: 100%;
+    height: 40px;
+    background-color: #8A8BA6;
+}
+main{
+    width: 100%;
+    flex-grow: 1;
+    background-color: #C9DEF2;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+    main h1{
+        font-size: 3rem;
+    }
+footer{
+    width: 100%;
+    height: 40px;
+    background-color: #8A8BA6;
+}
